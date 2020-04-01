@@ -1,0 +1,8 @@
+Line 192: Class MSMask.MaskEdBox of control txtdate was not a loaded control class.
+Line 198: The property name _ExtentX in txtdate is invalid.
+Line 199: The property name _ExtentY in txtdate is invalid.
+Line 200: The property name _Version in txtdate is invalid.
+Line 201: The property name MaxLength in txtdate is invalid.
+Line 202: The property name Format in txtdate is invalid.
+Line 203: The property name Mask in txtdate is invalid.
+Line 204: The property name PromptChar in txtdate is invalid.

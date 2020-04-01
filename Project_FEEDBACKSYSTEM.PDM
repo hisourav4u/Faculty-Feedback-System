@@ -1,0 +1,117 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Feedback_System_V2_Final(01-09-2017)\Feedback_Software_Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Book1.xls=D:\Feedback_System_V2_Final(01-09-2017)\Book1.xls
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office14\EXCEL.EXE=
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+book1.xls=
+empdb.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\Program Files\Microsoft Office\Office14\EXCEL.EXE=Yes
+C:\Windows\System32\MSMASK32.OCX=Yes
+C:\Windows\System32\MSCHRT20.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\EXEFILE\FEEDBACKSYSTEM.exe=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\Book1.xls=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\EMPDB.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Feedback_System_V2_Final(31-08-2017)\EXEFILE\FEEDBACKSYSTEM.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office14\EXCEL.EXE=$(AppPath)
+C:\Windows\System32\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCHRT20.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Feedback_System_V2_Final(31-08-2017)\Book1.xls=$(AppPath)
+D:\Feedback_System_V2_Final(31-08-2017)\EMPDB.mdb=$(AppPath)
+D:\Feedback_System_V2_Final(01-09-2017)\EXEFILE\FEEDBACKSYSTEM.exe=$(AppPath)
+D:\Feedback_System_V2_Final(01-09-2017)\Book1.xls=$(AppPath)
+D:\Feedback_System_V2_Final(01-09-2017)\EMPDB.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Feedback_System_V2_Final(31-08-2017)\EXEFILE\FEEDBACKSYSTEM.exe=Yes
+C:\Program Files\Microsoft Office\Office14\EXCEL.EXE=Yes
+D:\Feedback_System_V2_Final(31-08-2017)\Book1.xls=Yes
+D:\Feedback_System_V2_Final(31-08-2017)\EMPDB.mdb=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\EXEFILE\FEEDBACKSYSTEM.exe=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\Book1.xls=Yes
+D:\Feedback_System_V2_Final(01-09-2017)\EMPDB.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Student Feedback System
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Student Feedback System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Student Feedback System]
+Icon1=FEEDBACKSYSTEM.exe
+Title1=Student Feedback System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Feedback_System_V2_Final(01-09-2017)\Feedback_Software_Package
+ProjectFolder=D:\Feedback_System_V2_Final(01-09-2017)
+ServerSideCab=
+File1=D:\Feedback_System_V2_Final(01-09-2017)\Feedback_Software_Package\setup.exe
+File2=D:\Feedback_System_V2_Final(01-09-2017)\Feedback_Software_Package\Setup.Lst
+File3=D:\Feedback_System_V2_Final(01-09-2017)\Feedback_Software_Package\FEEDBACKSYSTEM.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
